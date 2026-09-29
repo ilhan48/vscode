@@ -1,0 +1,206 @@
+{
+  "workbench.colorTheme": "Abyss",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.fontFamily": "'JetBrains Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "450",
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.1,
+  "editor.fontLigatures": true,
+
+  "editor.semanticHighlighting.enabled": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "smooth",
+
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderLineHighlight": "line",
+  "editor.renderWhitespace": "selection",
+
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+
+  "editor.formatOnSave": true,
+  "editor.codeLens": false,
+
+  "breadcrumbs.enabled": true,
+
+  "terminal.integrated.fontFamily": "'JetBrains Mono', Menlo, Monaco, monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+
+  "rust-analyzer.check.command": "clippy",
+
+  "gopls": {
+    "ui.semanticTokens": true,
+    "ui.completion.usePlaceholders": true
+  },
+
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "workbench.colorCustomizations": {
+    "[Abyss]": {
+      "editor.background": "#0A0D12",
+      "editor.foreground": "#9FA9B8",
+
+      "editorLineNumber.foreground": "#343B47",
+      "editorLineNumber.activeForeground": "#7E8A9B",
+
+      "editorCursor.foreground": "#D8A657",
+
+      "editor.selectionBackground": "#263247",
+      "editor.inactiveSelectionBackground": "#1A2230",
+
+      "editor.lineHighlightBackground": "#10151D",
+
+      "editorIndentGuide.background1": "#1D2430",
+      "editorIndentGuide.activeBackground1": "#3A4556",
+
+      "editorBracketMatch.background": "#202A39",
+      "editorBracketMatch.border": "#58677A",
+
+      "editorWhitespace.foreground": "#262D38"
+    }
+  },
+
+  "editor.semanticTokenColorCustomizations": {
+    "[Abyss]": {
+      "enabled": true,
+      "rules": {
+        "namespace": "#9A88C2",
+
+        "type": "#7FBFAD",
+        "class": "#7FBFAD",
+        "struct": "#7FBFAD",
+        "enum": "#8FB8A8",
+        "interface": "#7FA7B9",
+        "trait": "#7FA7B9",
+        "typeParameter": "#B6A77A",
+
+        "function": "#D8A657",
+        "method": "#D8A657",
+
+        "parameter": "#8FAFD0",
+
+        "variable": "#9FA9B8",
+        "variable.readonly": "#8FB8A8",
+        "variable.defaultLibrary": "#8FAFD0",
+
+        "property": "#8FB6C7",
+
+        "enumMember": "#C59A72",
+
+        "macro": "#B58CD8",
+
+        "keyword": "#B58CD8",
+        "string": "#C88F7A",
+        "number": "#A7C080",
+
+        "comment": {
+          "foreground": "#5F6B7A",
+          "fontStyle": "italic"
+        }
+      }
+    }
+  },
+
+  "editor.tokenColorCustomizations": {
+    "[Abyss]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "keyword",
+            "storage.type",
+            "storage.modifier"
+          ],
+          "settings": {
+            "foreground": "#B58CD8"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function",
+            "support.function",
+            "variable.function"
+          ],
+          "settings": {
+            "foreground": "#D8A657"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.type",
+            "entity.name.struct",
+            "entity.name.enum",
+            "support.type"
+          ],
+          "settings": {
+            "foreground": "#7FBFAD"
+          }
+        },
+        {
+          "scope": [
+            "variable",
+            "variable.other",
+            "variable.other.readwrite"
+          ],
+          "settings": {
+            "foreground": "#9FA9B8"
+          }
+        },
+        {
+          "scope": [
+            "variable.parameter"
+          ],
+          "settings": {
+            "foreground": "#8FAFD0"
+          }
+        },
+        {
+          "scope": [
+            "string"
+          ],
+          "settings": {
+            "foreground": "#C88F7A"
+          }
+        },
+        {
+          "scope": [
+            "constant.numeric"
+          ],
+          "settings": {
+            "foreground": "#A7C080"
+          }
+        },
+        {
+          "scope": [
+            "comment"
+          ],
+          "settings": {
+            "foreground": "#5F6B7A",
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+  }
+}
